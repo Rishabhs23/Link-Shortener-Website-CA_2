@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Shortener</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- LINK SHORTENER -->
+    <header>
+        <a href="#"><img src="logo.png"></a>
+    </header>
+
+    <div class="shapes">
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+        <div class="circle c3"></div>
+        <div class="circle c4"></div>
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+        <div class="diamond d1"></div>
+        <div class="diamond d2"></div>
+        <div class="diamond d3"></div>
+    </div>
+
+    <!-----home----->
+    <section id="home">
+        <div class="container">
+            <h1><span>shorten</span> and <span>simplify</span></h1>
+            <h1>your <span class="links">Links</span></h1>
+            <p>streamline your URLs with Link Shortener</p>
+            <div class="field">
+                <input type="text" id="url" placeholder="Paste a long URL....." autocomplete="off">
+                <a onclick="shortenlink()" class="shorten">Shorten Now</a>
+            </div>
+            <div id="result">
+            </div>
+        </div>
+        
+        <span class="footer">
+            Designed and Developed <a href="https://github.com/Ganeshdojo">@Ganesh</a></span>    
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
